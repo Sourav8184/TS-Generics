@@ -10,3 +10,4 @@ function CustomerLogger(customer) {
 }
 var customer = new Customer("Harry", "Potter");
 CustomerLogger(customer);
+CustomerLogger(customer);

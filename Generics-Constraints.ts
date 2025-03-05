@@ -15,3 +15,4 @@ function CustomerLogger<T extends Customer>(customer: T): void {
 
 const customer = new Customer("Harry", "Potter");
 CustomerLogger(customer);
+CustomerLogger<Customer>(customer);
